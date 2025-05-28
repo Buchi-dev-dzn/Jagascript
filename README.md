@@ -1,4 +1,4 @@
- 🥔 じゃがすくりぷと（Jagascript）
+## 🥔 じゃがすくりぷと（Jagascript）
 
 > 「じゃ」と「が」だけで書ける、最低限構文の低レベル遊び言語！
 
@@ -10,21 +10,9 @@
 命令はすべて `"じゃ"` と `"が"` の組み合わせで表現されます！
 Rust製のインタプリタを含んでおり、CLIから `.jgs` ファイルを実行できます。
 
----
-
-## 🚀 インストール
-
-```bash
-git clone https://github.com/your-username/jagascript.git
-cd jagascript
-cargo build --release
-mv target/release/jagascript ~/.cargo/bin/jaga
-
-※ ~/.cargo/bin に PATH を通していない場合は .zshrc などで追加してください。
-
 ⸻
 
-## 🚀 使い方
+▶︎ 🚀 使い方
 
 .jgs 拡張子のファイルを以下のように実行：
 
@@ -52,3 +40,16 @@ jaga examples/hello.jgs
 
 じゃがじゃがじゃが   # + + +（3）
 じゃじゃが           # 出力（3）
+
+
+---
+
+## 🚀 インストール
+
+```bash
+git clone https://github.com/your-username/jagascript.git
+cd jagascript
+cargo build --release
+mv target/release/jagascript ~/.cargo/bin/jaga
+
+※ ~/.cargo/bin に PATH を通していない場合は .zshrc などで追加してください。

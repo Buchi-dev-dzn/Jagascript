@@ -47,9 +47,9 @@ jaga examples/hello.jgs
 ## 🚀 インストール
 
 ```bash
-git clone https://github.com/your-username/jagascript.git
+git clone https://github.com/Buchi-dev-dzn/Jagascript.git
 cd jagascript
 cargo build --release
 mv target/release/jagascript ~/.cargo/bin/jaga
-
+ 
 ※ ~/.cargo/bin に PATH を通していない場合は .zshrc などで追加してください。

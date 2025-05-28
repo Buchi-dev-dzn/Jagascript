@@ -53,3 +53,10 @@ cargo build --release
 mv target/release/jagascript ~/.cargo/bin/jaga
  
 ※ ~/.cargo/bin に PATH を通していない場合は .zshrc などで追加してください。
+
+- 🚀 クイックインストール
+
+Rustが入っていれば、以下の1行で `jaga` コマンドが使えるようになります：
+
+```bash
+curl -sSf https://raw.githubusercontent.com/Buchi-dev-dzn/Jagascript/main/install.sh | sh

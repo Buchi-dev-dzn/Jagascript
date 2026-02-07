@@ -22,7 +22,6 @@ fn tokenize(source: &str) -> Vec<char> {
     while i < chars.len() {
         let current: String = chars[i..].iter().collect();
 
-        // 🔽 最長一致順に並べ替えたバージョン
         if current.starts_with("じゃじゃが"){
             tokens.push('#');
             i += 5;
